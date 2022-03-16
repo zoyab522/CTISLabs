@@ -56,6 +56,12 @@ public class ProrityQueueExample {
         while(!numbers.isEmpty())
             System.out.println(numbers.remove());
         
-    }
-    
+        //check if the PriorityQueue is empty
+        System.out.println("Is the PriorityQueue " + "'numbers' empty? " + numbers.isEmpty());
+        
+        //find the size of the PriorityQueue
+        System.out.println("The size the PriorityQueue is: " + numbers.size() + "\n");
+        
+        System.out.println("PriorityQueue: " + numbers);
+    }   
 }
